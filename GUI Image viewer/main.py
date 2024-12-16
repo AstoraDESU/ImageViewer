@@ -8,11 +8,7 @@ root.title('Image viewer')
 root.geometry("800x600")
 #Gambar yang akan digunakan
 img_path = [
-    "image/454498640_1027618212059025_2435864408701899092_n.jpg",
-    "image/1974782-1c10d.jpg",
-    "image/cesario-and-a-piece-of-paper-v0-f1u0tk3x53pd1.jpeg",
-    "image/GUiG241a8AQV-Ma.png",
-    "image/4f44c22ec1a138e02c7d3705fc1f558c.jpg"
+    #Masukkan path file foto yang diinginkan disini
 ]
 
 original_images = [Image.open(path) for path in img_path]
